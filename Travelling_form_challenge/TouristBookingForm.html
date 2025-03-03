@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourist Booking FormF</title>
+    <link rel="stylesheet" href="./css/travellingform.css">
+</head>
+<body>
+    
+    <main>
+        <section>
+            <div class="container">
+                <form action="#" method="get">
+                    <h1 id="heading">Tour Booking Form</h1>
+                    <h3><span>Note: * Mandatory Fields</span></h3>
+                   <div id="horizontalline"></div>
+                    <div>
+                        <label for="username" class="labels"><b>Full name</b><span>*</span>:</label><br>
+                        <input type="text" id="username" required>
+                    </div><br>
+                    <div>
+                        <label for="email" class="labels"><b>Email Address</b><span>*</span>:</label><br>
+                        <input type="email" id="email" required><br>
+                    </div><br>
+                    <div>
+                        <label for="dropdown" class="labels"><b>Select Tour Package</b><span>*</span>:</label><br>
+                        <select name="Place" style="margin-top: 10px;">
+                            <option value="Select Package" id="uniqueclr" >Select Package</option>
+                            <option value="SouthIndia">SouthIndia</option>
+                            <option value="NorthIndia">NorthIndia</option>
+                            <option value="korea">korea</option>
+                            <option value="China">China</option>
+                        </select>
+                    </div><br>
+                    <div>
+                        <label for="numberofpersons" class="labels"><b>Number Of Persons</b><span>*</span>:</label><br>
+                        <input type="number" id="numberofpersons"  required>
+                    </div><br>
+                    <div>
+                        <label for="date" class="labels" ><b>Date</b><span>*</span>:</label><br>
+                        <input type="date" id="date" required >
+                    </div><br>
+                    
+                    <div>
+                        <label for="avail" class="labels"><b>what would you want to avail?</b><span>*</span></label><br>
+                        <input type="checkbox" value="Boarding" id="boarding"><label for="boarding"> Boarding</label><br>
+                        <input type="checkbox" value="food" id="food"><label for="food"> Food</label><br>
+                        <input type="checkbox" value="sight seeing" id="sightseeing"><label for="sightseeing"> Sight seeing</label><br>
+                    </div><br>
+                    <div>
+                        <label for="terms" class="labels"><b>Terms and Conditions</b><span>*</span></label><br>
+                        <input type="radio" name="terms" value="iagree" id="iagree"><label for="iagree">I Agree</label>
+                        <input type="radio" name="terms" value="i disagree" id="i disagree"><label for="idisagree">I Disagree</label>
+                    </div><br>
+                    <div>
+                        <input type="submit" id="button" value="BOOK NOW">
+                    </div>
+                </form>
+            </div>
+            
+        </section>
+    </main>
+</body>
+</html>
