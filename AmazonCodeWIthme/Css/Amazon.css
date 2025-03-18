@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto, sans-serif";
+}
+html{
+    
+}
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    background-color: #0f1111;
+    color: white;
+}
+nav img{
+    height: 50px;
+    width: 115px;
+}
+#userLocation{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+#userLocation i{
+    margin-top: 8px;
+    color: #fff;
+}
+#location p:first-of-type{
+    font-size: 12px;
+}
+#location p:last-of-type{
+    font-size: 14px;
+    font-weight: bold;
+}
+#ourproduct{
+    width: 50px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: #d4d4d4f7;
+}
+#search{
+    display: flex;
+    padding: 5px 0px;
+    width: 50%;
+    height:50px;
+}
+#searchinput{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 10px;
+}
+#search-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    background-color: #f3a847;
+    color: #333333;
+    font-size: 21px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+#cart{
+    font-size: 30px;
+}
+#secondary-nav{
+    background-color: rgba(34,47,61,255);
+    padding: 15px;
+    font-family: "Roboto, sans-serif";
+    font-weight: 400;
+    font-style: normal;
+}
+#menu{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    color: #fff;
+}
+#menu p{
+    font-size: 14px;
+}
+#menu p:last-of-type{
+    margin-left: auto;
+}
+#primeday{
+   width: 100%; 
+}
+#shopingitem{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 15px;
+    width: 100%;
+    background-color: #f3f3f3;
+    padding: 20px;
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #ffffff;
+    padding: 15px;
+    text-align: center;
+}
+.product p:first-child{
+    font-size: 18px;
+    width: 100%;
+    font-weight: bold;
+}
+.product p:last-child{
+    font-size: 16px;
+    width: 100%;
+    color: #807bff;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.product img{
+    width: 100%;
+    height: auto;
+}
+#movingforward{
+   background-color: rgba(55,71,90,255);
+   text-align: center;
+   padding: 20px;
+   cursor: pointer;
+}
+#movingforward{
+    text-decoration: none;
+    color: #ffffff;
+}
